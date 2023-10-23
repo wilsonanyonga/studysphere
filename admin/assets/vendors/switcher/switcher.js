@@ -1,6 +1,8 @@
 function addSwitcher()
-{
-	var dzSwitcher = '<div class="styleswitcher-right"> <div class="switcher-btn-bx"> <a class="switch-btn"> <span class="fa fa-cog"></span> </a> </div><div class="styleswitcher-inner"> <h6 class="switcher-title">Color Skin</h6> <ul class="color-skins"> <li><a class="theme-skin skin-1" href="?theme=css/skin/skin-1" title=""></a></li><li><a class="theme-skin skin-2" href="?theme=css/skin/skin-2" title=""></a></li><li><a class="theme-skin skin-3" href="?theme=css/skin/skin-3" title=""></a></li><li><a class="theme-skin skin-4" href="?theme=css/skin/skin-4" title=""></a></li></ul> </div></div>';
+{	
+	// var dzSwitcher = '';
+
+	// var dzSwitcher = '<div class="styleswitcher-right"> <div class="switcher-btn-bx"> <a class="switch-btn"> <span class="fa fa-cog"></span> </a> </div><div class="styleswitcher-inner"> <h6 class="switcher-title">Color Skin</h6> <ul class="color-skins"> <li><a class="theme-skin skin-1" href="?theme=css/skin/skin-1" title=""></a></li><li><a class="theme-skin skin-2" href="?theme=css/skin/skin-2" title=""></a></li><li><a class="theme-skin skin-3" href="?theme=css/skin/skin-3" title=""></a></li><li><a class="theme-skin skin-4" href="?theme=css/skin/skin-4" title=""></a></li></ul> </div></div>';
 	
 	if($("#dzSwitcher").length == 0) {
 		jQuery('body').append(dzSwitcher);
@@ -10,14 +12,14 @@ function addSwitcher()
 jQuery(window).on('load',function(){
 	
 	//=== Switcher panal slide function	=====================//
-	jQuery('.styleswitcher').animate({
-		'left': '-220px'
-	});
-	jQuery('.styleswitcher-right').animate({
-		'right': '-220px',
-		'left': 'auto'
-	});
-	jQuery('.switch-btn').addClass('closed');
+	// jQuery('.styleswitcher').animate({
+	// 	'left': '-220px'
+	// });
+	// jQuery('.styleswitcher-right').animate({
+	// 	'right': '-220px',
+	// 	'left': 'auto'
+	// });
+	// jQuery('.switch-btn').addClass('closed');
 	//=== Switcher panal slide function END	=====================//
 	
 });
@@ -25,7 +27,7 @@ jQuery(window).on('load',function(){
 $(function(){		
 	"use strict";
 	
-	addSwitcher();
+	// addSwitcher();
 	//=== Switcher panal slide function	=====================//
 	jQuery('.switch-btn').on('click',function () {	
 		if (jQuery(this).hasClass('open')) {
