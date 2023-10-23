@@ -10,14 +10,14 @@ function addSwitcher()
 jQuery(window).on('load',function(){
 	
 	//=== Switcher panal slide function	=====================//
-	jQuery('.styleswitcher').animate({
-		'left': '-220px'
-	});
-	jQuery('.styleswitcher-right').animate({
-		'right': '-220px',
-		'left': 'auto'
-	});
-	jQuery('.switch-btn').addClass('closed');
+	// jQuery('.styleswitcher').animate({
+	// 	'left': '-220px'
+	// });
+	// jQuery('.styleswitcher-right').animate({
+	// 	'right': '-220px',
+	// 	'left': 'auto'
+	// });
+	// jQuery('.switch-btn').addClass('closed');
 	//=== Switcher panal slide function END	=====================//
 	
 });
@@ -25,7 +25,7 @@ jQuery(window).on('load',function(){
 $(function(){		
 	"use strict";
 	
-	addSwitcher();
+	// addSwitcher();
 	//=== Switcher panal slide function	=====================//
 	jQuery('.switch-btn').on('click',function () {	
 		if (jQuery(this).hasClass('open')) {
