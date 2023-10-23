@@ -73,7 +73,7 @@ a:not([href]):not([tabindex]).switch-btn  {
     list-style: outside none none;
     margin:0;
 	width: 25%;
-	float: left;
+	/* float: left; */
 	padding:5px;
 }
 .color-skins li a{
